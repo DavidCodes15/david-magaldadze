@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/slider.css">
+    <title>Personal Portfolio</title>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+        </script>
+        <script type="text/javascript">
+        (function(){
+            emailjs.init("be6pxONwJeja1cTyU");
+        })();
+        </script>
+</head>
+<body class="m-[0px] p-[0px] overflow-x-hidden bg-zinc-900 text-white font-mono text-opacity-80">
+    <!-- start header -->
+    <header>
+        <nav>
+            <ul class="hidden lg:header-fix fade-in lg:flex justify-center items-center space-x-10 text-[17px] pt-2">
+                <li id="home" class="cursor-pointer hover:text-blue-800 border-[1px] border-blue-800 px-10 py-5"><a href="#home-div">Home</a></li>
+                <li class="cursor-pointer hover:text-blue-800 px-10 py-5"><a href="#projects">Projects</a></li>
+                <li class="cursor-pointer hover:text-blue-800 px-10 py-5"><a href="#skills-div">Skills</a></li>
+                <li class="cursor-pointer hover:text-blue-800 px-10 py-5"><a href="#about-div">About</a></li>
+                <li class="cursor-pointer hover:text-blue-800 px-10 py-5"><a href="#about-div">Resume</a></li>
+                <li class="cursor-pointer hover:text-blue-800 px-10 py-5"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- end header -->
+    <!-- start main -->
+    <main>
+        <section class="flex justify-between mx-[50px] items-center space-x-8">
+       <section class="home-fix">
+        <!-- start of home div -->
+            <div id="home-div" class="mt-[149px] flex flex-col justify-center items-center">
+                <div class="fade-in flex justify-center items-center space-x-4">
+                    <div class="w-[100px] h-[1px] bg-gray-600"></div>
+                    <div>
+                        <h2 class="text-xl text-blue-800">Home</h2>
+                    </div>
+                    <div class="w-[100px] h-[1px] bg-gray-600"></div>
+                </div>
+                <div class="fade-in flex items-center">
+                    <div class=" w-[429px] flex flex-col space-y-8 leading-8">
+                        <h2 class="text-2xl text-blue-800">Full Stack Developer</h2>
+                        <p>I’m a full stack web developer who loves building attractive and effective web applications, open to experience new programming languages.</p>
+                        <div>
+                            <button class="w-[200px] bg-transparent border-2 border-solid border-blue-800 py-4 hover:text-blue-800"><a href="#projects">See my work</a></button>
+                        </div>
+                    </div>
+                    <div class="image-fix w-[500px] h-[500px] flex items-center">
+                        <img src="../images/first.png" alt="" class="rounded">
+                    </div>
+                </div>
+            </div>
+            <!-- end of home div -->
+            <!-- start of projects div -->
+            <!-- end of projects div -->
+            <!-- start of skills div -->
+            <div id="skills-div" class="mb-[200px] mt-[149px] flex flex-col justify-center items-center space-y-4">
+                <div class="flex justify-center items-center space-x-4">
+                    <div class="w-[100px] h-[1px] bg-gray-600"></div>
+                    <div>
+                        <h2 class="text-xl text-blue-800">Skills</h2>
+                    </div>
+                    <div class="w-[100px] h-[1px] bg-gray-600"></div>
+                </div>
+                <!-- start of secondary skills div -->
+                <div id="skills" class="reso-fix flex items-center justify-center space-x-20 bg-transparent border-[1px] border-gray-600 border-solid px-28 py-28 rounded">
+                    <!-- start of front end div -->
+                    <div id="front-end" class="flex flex-col items-center justify-center space-y-10">
+                        <div class="flex justify-center items-center space-x-4">
+                            <div class="w-[50px] h-[1px] bg-gray-600"></div>
+                            <div>
+                            <h2 class="text-2xl">Front</h2>
+                            </div>
+                            <div class="w-[50px] h-[1px] bg-gray-600"></div>
+                        </div>
+                        <div class="fade-in grid grid-cols-2 gap-2 text-center">
+                            <span><img src="../images/html.png" alt="html" class="w-[80px] h-[80px]"></span>
+                            <span><img src="../images/css.png" alt="css" class="w-[80px] h-[80px]"></span>
+                            <span><img src="../images/js.png" alt="javascript" class="w-[80px] h-[80px]"></span>
+                            <span><img src="../images/tailwind.png" alt="tailwind" class="w-[80px] h-[80px]"></span>
+                        </div>
+                    </div>
+                    <!-- end of front-end div -->
+                    <!-- start of back-end div -->
+                    <div id="back-end" class="flex flex-col items-center justify-center space-y-10">
+                        <div class="flex space-x-4 justify-center items-center">
+                        <div class="w-[50px] h-[1px] bg-gray-600"></div>
+                        <div>
+                            <h2 class="text-2xl">Back</h2>
+                        </div>
+                        <div class="w-[50px] h-[1px] bg-gray-600"></div>
+                        </div>
+                        <div class="fade-in grid grid-cols-2 gap-2">
+                          <span><img src="../images/php.png" alt="php" class="w-[80px] h-[80px]"></span>
+                          <span><img src="../images/drupal.png" alt="drupal" class="w-[80px] h-[80px]"></span>
+                          <span><img src="../images/mysql.svg" alt="mysql" class="w-[80px] h-[80px]"></span>
+                          <span><img src="../images/twig.png" alt="twig" class="w-[80px] h-[80px]"></span>
+                        </div>
+                    </div>
+                    <!-- end of back-end div -->
+                    <!-- start of tools div -->
+                    <div id="tools" class="mt-[50px] flex flex-col items-center justify-center space-y-2">
+                        <div class="flex space-x-4 justify-center items-center">
+                            <div class="w-[50px] h-[1px] bg-gray-600"></div>
+                            <div><h2 class="text-2xl">Tools</h2></div>
+                            
+                            <div class="w-[50px] h-[1px] bg-gray-600"></div>
+                        </div>
+                        <div class="fade-in grid grid-cols-2 gap-2">
+                           <span><img src="../images/git.png" alt="git" class="w-[80px] h-[80px]"></span>
+                           <span><img src="../images/github.svg" alt="github" class="w-[80px] h-[80px]"></span>
+                           <span><img src="../images/gitlab.png" alt="gitlab" class="w-[80px] h-[80px]"></span>
+                           <span><img src="../images/jira.svg" alt="jira" class="w-[80px] h-[80px]"></span>
+                           <span><img src="../images/vscode.png" alt="vscode" class="w-[80px] h-[80px]"></span>
+                        </div>
+                    </div>
+                    <!-- end of tools div -->
+
+                </div>
+                <!-- end of secondary skills div -->
+            </div>
+            <!-- end of skills div -->
+            <!-- start of projects page -->
+            <div id="projects" class="flex flex-col space-y-24">
+                <div class="fade-in flex justify-center items-center space-x-4">
+                    <div class="w-[100px] h-[1px] bg-gray-600"></div>
+                    <div>
+                        <h2 class="text-xl text-blue-800">Projects</h2>
+                    </div>
+                    <div class="w-[100px] h-[1px] bg-gray-600"></div>
+                </div>
+            <div class="fade-in slider-body">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="flex flex-col space-y-8">
+                        <h2 class="text-blue-800">Full Stack App</h2>
+                        <p class="w-[600px] text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dolorem tempora, blanditiis sed velit dolores quidem deserunt, eius laborum nostrum at veniam nihil ipsum corrupti quis cupiditate animi nulla perferendis! if you want to see full webpage and design, scroll to the next one -></p>
+                    </div>
+                    
+                </div>
+                  <div class="swiper-slide">
+                   
+                    <div class="w-full h-full flex justify-center items-center">
+                        <img src="../images/developer-2.webp" alt="">
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="flex flex-col space-y-8">
+                        <h2 class="text-blue-800">Full Stack App</h2>
+                        <p class="w-[600px] text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dolorem tempora, blanditiis sed velit dolores quidem deserunt, eius laborum nostrum at veniam nihil ipsum corrupti quis cupiditate animi nulla perferendis! if you want to see full webpage and design, scroll to the next one -></p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="flex flex-col space-y-8">
+                        <h2 class="text-blue-800">Full Stack App</h2>
+                        <p class="w-[600px] text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dolorem tempora, blanditiis sed velit dolores quidem deserunt, eius laborum nostrum at veniam nihil ipsum corrupti quis cupiditate animi nulla perferendis! if you want to see full webpage and design, scroll to the next one -></p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="flex flex-col space-y-8">
+                        <h2 class="text-blue-800">Full Stack App</h2>
+                        <p class="w-[600px] text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dolorem tempora, blanditiis sed velit dolores quidem deserunt, eius laborum nostrum at veniam nihil ipsum corrupti quis cupiditate animi nulla perferendis! if you want to see full webpage and design, scroll to the next one -></p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                   <img src="" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="flex flex-col space-y-8">
+                        <h2 class="text-blue-800">Full Stack App</h2>
+                        <p class="w-[600px] text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dolorem tempora, blanditiis sed velit dolores quidem deserunt, eius laborum nostrum at veniam nihil ipsum corrupti quis cupiditate animi nulla perferendis! if you want to see full webpage and design, scroll to the next one -></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+              </div>
+            <!-- end of projects page -->
+            <!-- start of about div -->
+            <div id="about-div" class="mb-[200px] mt-[149px] flex flex-col justify-center items-center space-y-4">
+                <div class="fade-in flex justify-center items-center space-x-4">
+                    <div class="w-[100px] h-[1px] bg-gray-600"></div>
+                    <div>
+                        <h2 class="text-xl text-blue-800">About</h2>
+                    </div>
+                    <div class="w-[100px] h-[1px] bg-gray-600"></div>
+                </div>
+                
+                <div class="flex items-center justify-center">
+                    <div class="slide-in from-left w-[429px] flex flex-col space-y-8 leading-9">
+                        <h2 class="text-2xl text-blue-800">About David</h2>
+                        <p>my name is David Magaldadze, I am self-taught full stack web developer who is injected by love of programming since 2020, since then I’ve been developing myself to be a best at creating hard and cool websites, always open to work  with new programming languages.</p>
+                        <div class="flex items-center space-x-4">
+                            <button class="w-[200px] bg-transparent border-2 border-solid border-blue-800 py-4 hover:text-blue-800"><a href="#contact">Contact Me</a></button>
+                            <button class="w-[200px] bg-transparent border-2 border-solid border-blue-800 py-4 hover:text-blue-800"><a href="#about-div">My Resume</a></button>
+                        </div>
+                    </div>
+                    <div class="slide-in from-right flex items-center justify-center w-[500px] h-[500px]">
+                        <img src="../images/java-software-development.svg" alt="my photo" class="rounded">
+                    </div>
+                </div>
+            </div>
+            <!-- end of about div -->
+            <!-- start of contact div -->
+            <div id="contact" class="mb-[200px] mt-[149px] flex flex-col justify-center items-center space-y-10 ml-10">
+                
+                <div id="banner" class="fade-in flex justify-center items-center space-x-4">
+                    <div class="w-[100px] h-[1px] bg-gray-600"></div>
+                    <div>
+                        <h2 class="text-xl text-blue-800">Contact</h2>
+                    </div>
+                    <div class="w-[100px] h-[1px] bg-gray-600"></div>
+                </div>
+                
+                <form action="" method="POST" class="fade-in space-y-6" id="form">
+                    <div class="flex items-center justify-center space-x-4">
+                        <div class="flex flex-col justify-center">
+                        <input type="text" name="name" id="name" placeholder="Your Name.." class="border-2 border-blue-800 border-solid bg-transparent py-4 px-4">
+                       <h2 class="text-red-400 hidden">Name is required</h2>
+                        </div>
+                        <div class="flex flex-col">
+                        <input type="text" name="email" id="email" placeholder="Your Email.." class="border-2 border-blue-800 border-solid bg-transparent py-4 px-4">
+                        <h2 class="text-red-400 hidden">email is invalid</h2>
+                        </div>
+                    </div>
+                    <div class="flex flex-col items-center justify-center">
+                        <div class="flex flex-col">
+                        <textarea name="message" id="message" placeholder="message me.." class="w-[486px] h-[200px] border-2 border-blue-800 border-solid bg-transparent"></textarea>
+                        <h2 id="nameError" class="text-red-400 hidden">message is required</h2>
+                        </div>
+                    </div>
+                    <input type="hidden" name="_next" value="https:://david-magaldadze.com/thankyou.html">
+                    <div class="flex flex-col items-center justify-center">
+                        <button onclick="sendMail()" type="submit" id="submit" class="cursor-pointer border-2 border-blue-800 border-solid bg-transparent py-4 px-36 hover:text-blue-800">Submit</button>
+                        
+                    </div>
+
+                </form>
+                <div class="fade-in flex items-center justify-end w-10 h-10 cursor-pointer">
+                    <a href="#home"><img src="../images/back-to-top.jpeg" alt=""></a>
+                </div>
+                <div id="thank-you" class="hidden">
+                    <div class="fade-in flex justify-center items-center space-x-4">
+                        <div class="w-[100px] h-[1px] bg-gray-600"></div>
+                        <div>
+                            <h2 class="text-xl text-blue-800">Successfully sent! wait 3 seconds</h2>
+                        </div>
+                        <div class="w-[100px] h-[1px] bg-gray-600"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- end of contact div -->
+
+       </section>
+       <!-- <section class="-mt-[2800px] fixed mx-auto">
+        <div class="flex flex-col space-y-6">
+            <span class="cursor-pointer w-4 h-4 bg-blue-800 rounded-full"></span>
+            <span class="cursor-pointer w-4 h-4 bg-gray-600 rounded-full"></span>
+            <span class="cursor-pointer w-4 h-4 bg-gray-600 rounded-full"></span>
+            <span class="cursor-pointer w-4 h-4 bg-gray-600 rounded-full"></span>
+            <span class="cursor-pointer w-4 h-4 bg-gray-600 rounded-full"></span>
+            <span class="cursor-pointer w-4 h-4 bg-gray-600 rounded-full"></span>
+        </div>
+    </section> -->
+       </section>
+    </main>
+    <!-- end main -->
+    <!-- start footer -->
+    <!-- end footer -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+   <script src="./script.js"></script>
+   <script src="./slider.js"></script>
+</body>
+</html>
