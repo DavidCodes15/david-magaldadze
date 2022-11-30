@@ -75,3 +75,9 @@
     /* background-color: rgb(54, 94, 77); */
     background-color: #1f2937;
   }
+  @media (max-width: 1023px){
+    .swiper {
+      width: 240px;
+      height: 320px;
+    }
+  }
